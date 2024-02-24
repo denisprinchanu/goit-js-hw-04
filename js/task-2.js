@@ -3,20 +3,20 @@
 
 function calcAverageCalories(days) {
    
-    // Обчислюємо суму калорій
+   
     let totalCalories = 0;
 
 
     for (let i = 0; i < days.length; i++) {
       totalCalories += days[i].calories;
     }
-  
-    // Обчислюємо середнє значення калорій
-    let averageCalories = totalCalories / days.length;
+      if (days.length === 0) {return 0
+      
+      } else { let averageCalories = totalCalories / days.length;
     return averageCalories;}
 
 
-
+    }
 
 
 

@@ -8,13 +8,13 @@ let totalProducts = 0;
 
 
     for ( let key in products) {
-        // інструкції   
+    
         totalProducts += products[key];
   
        
     
       }
-      return  totalProducts <= containerSize; ///true
+      return  totalProducts <= containerSize; 
 }
 
 
